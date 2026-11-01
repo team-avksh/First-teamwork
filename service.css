@@ -1,0 +1,154 @@
+/* services */
+
+.services {
+  font-family: Roboto;
+  background: linear-gradient(110deg, #E4252C -20%, black, black, #E4252C 110%);
+  height: 300px;
+  margin-bottom: 400px;
+}
+
+.services-inner {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.services-title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 106%;
+  color: red;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.services-card {
+  width: 276px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  background-color: white;
+  padding: 16px;
+  box-shadow: 1px 1px 30px rgb(165, 165, 165);
+}
+
+.test-tube {
+  color: red;
+  font-size: 35px;
+}
+
+.services-card-title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 148%;
+  letter-spacing: 2%;
+  text-align: center;
+  color: black;
+}
+
+.services-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #525252;
+}
+
+
+/* services */
+
+
+.portfolio {
+  font-family: roboto;
+  padding: 70px 0;
+}
+
+.portfolio-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio-content {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  gap: 27px;
+}
+
+.portfolio-title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 106%;
+  color: black;
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 18.51px;
+  line-height: 23.13px;
+  color: black;
+}
+
+.portfolio-button {
+  background-color: red;
+  border: none;
+  padding: 14px 30px;
+  color: white;
+  border-radius: 14px;
+}
+.d-block {
+  width: 600px;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.slide {
+  width: 650px;
+}
+
+.portfolio-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.portfolio-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: #191b1d;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.portfolio-arrow:hover {
+  background-color: red;
+}
