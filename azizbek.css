@@ -1,0 +1,116 @@
+body {
+  background-color: white;
+}
+
+/* contracts */
+
+.contracts {
+  padding: 45px 0;
+  background-color: black;
+}
+
+.contracts-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* contracts */
+
+/* testimonial */
+
+.testimonials {
+  font-family: roboto;
+  padding: 70px 0;
+}
+
+.testimonials-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.testimonials-content {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  gap: 27px;
+}
+
+.testimonials-title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 106%;
+  color: black;
+}
+
+.testimonials-text {
+  font-weight: 400;
+  font-size: 18.51px;
+  line-height: 23.13px;
+  color: black;
+}
+
+.testimonials-button {
+  background-color: red;
+  border: none;
+  padding: 14px 30px;
+  color: white;
+  border-radius: 14px;
+}
+
+.testimonials-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.testimonial-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  gap: 8px;
+}
+
+.testimonial-card-title {
+  color: black;
+}
+
+.testimonial-card-text {
+  color: black;
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33.52px;
+  letter-spacing: 1%;
+}
+
+.d-block {
+  width: 600px;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.slide {
+  width: 650px;
+}
+
+/* testimonial */
